@@ -13,13 +13,14 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+Our dataset looks at United States Government Medicare-Medicaid data from 2006-2012. The dataset itself contains demographic, enrollment, medical condition prevalence, service utilization, and state level spending as a way to provide transparency/accountability to American citizens.
+We need to answer how this data was collected by looking at the MMLEADS PUF methodological file that is available.
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Jordan Bird: I'm a 1st year MSc student in Health and Exercise Sciences.
+- Quinn Ingham: one sentence about you!
+- Ethan Krahulic-Weber: one sentence about you!
 
 ## Images
 
@@ -29,7 +30,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## References
 
-{Add your stuff here}
+Data taken from [Centers for Medicare & Medicaid Services](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MMLEADS)
 
 
 
