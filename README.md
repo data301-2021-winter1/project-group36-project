@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5860014&assignment_repo_type=AssignmentRepo)
-# Group YYY - {Short snappy Title of your project}
+# Group 36 - 2006-2012 Medicare & Medicaid Usage and Findings
 
 - Your title can change over time.
 
@@ -13,8 +13,8 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-Our dataset looks at United States Government Medicare-Medicaid data from 2006-2012. The dataset itself contains demographic, enrollment, medical condition prevalence, service utilization, and state level spending as a way to provide transparency/accountability to American citizens.
-We need to answer how this data was collected by looking at the MMLEADS PUF methodological file that is available.
+Our dataset looks at United States Government Medicare-Medicaid data from 2006-2012. The dataset itself contains demographic, enrollment, medical condition prevalence, service utilization, and state level spending as a way to provide transparency/accountability to American citizens for people who are dually enrolled in both Medicare (i.e., over 65 years of age or have a disability) and Medicaid (i.e., have a low annual income). The primary data source was CMS's Chronic Conditions Data Warehouse which contains 100% of Medicare enrollment data along with claims for beneficiaries who are enrolled in the fee-for-service program. This data would be collected at the time of medical oversight then tranposed to this database on a weekly basis. Of this data, members that were dually enrolled in Medicare-Medicaid were utilized to give a comprehensive look at where federal and state resources are being allocated. (137 words)
+
 
 ## Team Members
 
