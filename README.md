@@ -43,7 +43,7 @@ Our dataset looks at United States Government Medicare-Medicaid data from 2006-2
 ## Team Members
 
 - Jordan Bird: I'm a 1st year MSc student in Health and Exercise Sciences.
-- Quinn Ingham: one sentence about you!
+- Quinn Ingham: I'm a second year student pursuing a BSc in Mathematics, with a focus in Data Science.
 - Ethan Krahulic-Weber: one sentence about you!
 
 ## Images
