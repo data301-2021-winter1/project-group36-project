@@ -9,7 +9,20 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+The American healthcare system is broad and complex, with many angles to look at. This can make it difficult to form a comprehensive understanding of the functions, and current state, of the overall healthcare system. While that may be, one can often find useful insight through analyzing specific (or related) components of the system. In this study, our focus will be centered around Medicare-Medicaid benefits/coverage, which accounts for a significant portion of the healthcare benefits receieved by the American public. Our goal is to obtain an accurate reflection of how, and where, these funds are allocated, in an effort to better understand its function in the general population. We will also look at data spanning several years, to establish whether or not there are any evident/notable trends in the data. Altogether, we will use our observations to answer, or explore, the following prompts: 
+
+1. Identify trends in cardiovascular disease, by race, gender
+
+2. Identify trends in benefit type received, by race, gender
+
+3. Establish dependence or independence between respective trends and geographical location, by region, state
+
+4. Cross compare trends between demographics, by geographical location 
+
+5. Establish if a relationship exists between identified trends
+
+
+
 
 ## Describe your dataset in about 150-200 words
 
