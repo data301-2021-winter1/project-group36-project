@@ -9,7 +9,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-The American healthcare system is broad and complex, with many angles to look at. This can make it difficult to form a comprehensive understanding of the functions, and current state, of the overall healthcare system. While that may be, one can often find useful insight through analyzing specific (or related) components of the system. In this study, our focus will be centered around Medicare-Medicaid benefits/coverage, which accounts for a significant portion of the healthcare benefits receieved by the American public. Our goal is to obtain an accurate reflection of how, and where, these funds are allocated, in an effort to better understand its function in the general population. We will also look at data spanning several years, to establish whether or not there are any evident/notable trends in the data. Altogether, we will use our observations to answer, or explore, the following prompts: 
+The American healthcare system is broad and complex, with many angles to look at. This can make it difficult to form a comprehensive understanding of the functions, and current state, of the overall healthcare system. While that may be, one can often find useful insight through analyzing specific (or related) components of the system. In this study, our focus will be centered around Medicare-Medicaid benefits/coverage, which accounts for a significant portion of the healthcare benefits receieved by the American public. Our goal is to obtain an accurate reflection of how, and where, these funds are allocated, in an effort to better understand its function in the general population. We will also look at data spanning several years, to establish whether or not there are any evident/notable trends in the data. Altogether, the scope/objective of our study can be summarized by the following:
 
 1. Identify trends in cardiovascular disease, by race, gender
 
@@ -21,8 +21,19 @@ The American healthcare system is broad and complex, with many angles to look at
 
 5. Establish if a relationship exists between identified trends
 
+We will use these observations to answer, or explore, questions such as:
 
+- Are there specific states that have a higher prevalence of cardiovascular disease or affliction over time?
 
+- What percentage of disease occurs in marginalized groups?
+
+- Has healthcare knowledge development impacted rates of cardiovascular disease?
+
+- How has reprsentation, by race, gender, and poverty relation, changed over time (in relation to state level healthcare benefits and coverage)?
+
+- Are the changes in representation related to the state? If so, are they consistent with changes in state population?
+
+These are not the only questions we seek to answer, but they will hopefully suffice as a general framework for this study. All in all, this study will not provide a comprehensive breakdown of the American healthcare system in its entirety; be that as it may, our observations of state level healthcare benefits and coverage is intended to equip readers with a clear understanding of Medicare-Medicaid and its overall effectiveness/impact. Ideally, it will also reveal its shortcomings, and potential target areas for improvement. 
 
 ## Describe your dataset in about 150-200 words
 
