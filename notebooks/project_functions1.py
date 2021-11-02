@@ -152,3 +152,80 @@ def cleaned_data(csv_file):
     df = pd.read_csv(csv_file)
     return df
 
+#Getting an actual number of cardiovascular patients
+def create_cardio_pop(dfc):
+    dfc['NumHA'] = dfc['ha%'] * dfc['Number of People']
+    dfc['NumAF'] = dfc['af%'] * dfc['Number of People']
+    dfc['NumHF'] = dfc['hf%'] * dfc['Number of People']
+    dfc['NumDM'] = dfc['dm%'] * dfc['Number of People']
+    dfc['NumHC'] = dfc['hc%'] * dfc['Number of People']
+    dfc['NumHYP'] = dfc['hyp%'] * dfc['Number of People']
+    dfc['NumIHD'] = dfc['ihd%'] * dfc['Number of People']
+    dfc['NumOBESITY'] = dfc['obesity%'] * dfc['Number of People']
+    dfc['NumSTROKE'] = dfc['strokeorTIA%'] * dfc['Number of People']
+    dfc['NumPAD'] = dfc['pad%'] * dfc['Number of People']
+    return
+
+
+def cardio_pop_sum(dfc, year):
+    '''
+    Takes a dataframe and year from the dataframe and returns the total population of cardiovascular variables over the course of the year.
+    dfc - Dataframe
+    year (value) - One of the years between 2006 and 2012 when this data was taken.
+    
+    '''
+    dfc = dfc.loc[(dfc['State'] != 'National') & (dfc['Number of People by Medicare-Medicaid Enrollment Type'] == 'Medicare Only')]
+    d = {'Region' : ['West', 'Southeast', 'Southwest', 'Northeast', 'Midwest'],
+         'DM#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumDM'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumDM'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumDM'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumDM'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumDM'].sum()],
+         'HA#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumHA'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumHA'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumHA'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumHA'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumHA'].sum()],
+         'AF#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumAF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumAF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumAF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumAF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumAF'].sum()],
+         'HF#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumHF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumHF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumHF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumHF'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumHF'].sum()],
+         'HC#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumHC'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumHC'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumHC'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumHC'].sum(),
+                  dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumHC'].sum()],
+         'HYP#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumHYP'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumHYP'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumHYP'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumHYP'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumHYP'].sum()],
+         'IHD#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumIHD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumIHD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumIHD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumIHD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumIHD'].sum()],
+         'PAD#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumPAD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumPAD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumPAD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumPAD'].sum(),
+                   dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumPAD'].sum()],
+         'OBES#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumOBESITY'].sum(),
+                    dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumOBESITY'].sum(),
+                    dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumOBESITY'].sum(),
+                    dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumOBESITY'].sum(),
+                    dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumOBESITY'].sum()],
+         'STROKE#' : [dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'West'), 'NumSTROKE'].sum(),
+                      dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southeast'), 'NumSTROKE'].sum(),
+                      dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Southwest'), 'NumSTROKE'].sum(),
+                      dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Northeast'), 'NumSTROKE'].sum(),
+                      dfc.loc[(dfc['Year'] == year) & (dfc['Region'] == 'Midwest'), 'NumSTROKE'].sum()]}
+    df_cardio = pd.DataFrame.from_dict(d)
+    df_cardio['Year'] = year
+    return df_cardio
