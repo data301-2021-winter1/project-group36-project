@@ -11,13 +11,11 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 The American healthcare system is broad and complex, with many angles to look at. This can make it difficult to form a comprehensive understanding of the functions, and current state, of the overall healthcare system. While that may be, one can often find useful insight through analyzing specific (or related) components of the system. In this study, our focus will be centered around Medicare-Medicaid benefits/coverage, which accounts for a significant portion of the healthcare benefits receieved by the American public. Our goal is to obtain an accurate reflection of how, and where, these funds are allocated, in an effort to better understand its function in the general population. We will also look at data spanning several years, to establish whether or not there are any evident/notable trends in the data. Altogether, the scope/objective of our study can be summarized by the following:
 
-1. Identify trends in cardiovascular disease, by race, gender
+1. Identify trends in cardiovascular disease
 
-2. Identify trends in benefit type received, by race, gender
+2. Establish dependence or independence between respective trends and geographical location, by region, state
 
-3. Establish dependence or independence between respective trends and geographical location, by region, state
-
-4. Cross compare trends between demographics, by geographical location 
+4. Cross compare trends by geographical location 
 
 5. Establish if a relationship exists between identified trends
 
@@ -43,18 +41,15 @@ Our dataset looks at United States Government Medicare-Medicaid data from 2006-2
 ## Team Members
 
 - Jordan Bird: I'm a 1st year MSc student in Health and Exercise Sciences.
-- Quinn Ingham: I'm a second year student pursuing a BSc in Mathematics, with a focus in Data Science.
-- Ethan Krahulic-Weber: I'm a third year Human Kinetics student with a minor in psychology, looking to diversify by becoming more competent with computers.
 
 ## Images
+<img src ="images/DM_PAD_Trends.pdf" width="300px">
 
-{You can use this area for any images you want to include}
+<img src ="images/Cardiovascular_Trends.pdf" width="300px">
 
-<img src ="images/test.png" width="100px">
+<img src ="images/Stroke_HA_OBES_trends.pdf" width="300px">
 
 ## References
 
 Data taken from [Centers for Medicare & Medicaid Services](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MMLEADS)
-
-
-
+Census data from [United States Population Growth](https://www.census.gov/popclock/data_tables.php?component=growth)
