@@ -1,11 +1,9 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5860014&assignment_repo_type=AssignmentRepo)
-# Group 36 - 2006-2012 Medicare & Medicaid Usage and Findings
-
-- Your title can change over time.
+# Group 36 - 2006-2012 Medicare Data for Analysis of Cardiovascular Disease
 
 ## Milestones
 
-Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
+Submission for Milestone 5
 
 ## Describe your topic/interest in about 150-200 words
 
@@ -23,13 +21,7 @@ We will use these observations to answer, or explore, questions such as:
 
 - Are there specific states that have a higher prevalence of cardiovascular disease or affliction over time?
 
-- What percentage of disease occurs in marginalized groups?
-
 - Has healthcare knowledge development impacted rates of cardiovascular disease?
-
-- How has reprsentation, by race, gender, and poverty relation, changed over time (in relation to state level healthcare benefits and coverage)?
-
-- Are the changes in representation related to the state? If so, are they consistent with changes in state population?
 
 These are not the only questions we seek to answer, but they will hopefully suffice as a general framework for this study. All in all, this study will not provide a comprehensive breakdown of the American healthcare system in its entirety; be that as it may, our observations of state level healthcare benefits and coverage is intended to equip readers with a clear understanding of Medicare-Medicaid and its overall effectiveness/impact. Ideally, it will also reveal its shortcomings, and potential target areas for improvement. 
 
@@ -43,13 +35,17 @@ Our dataset looks at United States Government Medicare-Medicaid data from 2006-2
 - Jordan Bird: I'm a 1st year MSc student in Health and Exercise Sciences.
 
 ## Images
-<img src ="images/DM_PAD_Trends.pdf" width="300px">
+- <img src ="images/DM_PAD_Trends.pdf" width="300px">
+Graph of Diabetes Mellitus and Peripheral Arterial Disease trends from 2006-2012
 
-<img src ="images/Cardiovascular_Trends.pdf" width="300px">
+- <img src ="images/Cardiovascular_Trends.pdf" width="300px">
+Graph of cardiovascular disease trends from 2006-2012
 
-<img src ="images/Stroke_HA_OBES_trends.pdf" width="300px">
+- <img src ="images/Stroke_HA_OBES_trends.pdf" width="300px">
+Three paneled graph that looks at stroke, heart attacks, and obesity trends from 2006-2012
 
 ## References
 
 Data taken from [Centers for Medicare & Medicaid Services](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/MMLEADS)
+
 Census data from [United States Population Growth](https://www.census.gov/popclock/data_tables.php?component=growth)
